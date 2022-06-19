@@ -9,6 +9,7 @@ import { magic ,isUserLoggedIn } from "../../../lib/magicClient";
 import Cart from "../../UI/modal/Cart";
 import HeaderCartBtn from "./HeaderCartBtn";
 import {userLoggedIn, getUserEmail} from "../../../pages/login";
+import { Fragment } from "react";
 
 const Header =()=>{
     const router = useRouter();

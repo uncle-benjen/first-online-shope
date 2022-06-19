@@ -6,7 +6,6 @@ import CommentSection from "../../../components/UI/commentSection/CommentSection
 import { useRouter } from "next/router";
 import { allItems } from "../../../lib/Items";
 import { useCart } from "react-use-cart";
-import { useState } from "react";
 
 
 export async function getStaticPaths() {
@@ -37,7 +36,7 @@ export async function getStaticPaths() {
 
 const ItemId = ({postData, params})=>{
     const router = useRouter();
-    // console.log(postData);
+    console.log(postData);
     
     // console.log(postData);
   

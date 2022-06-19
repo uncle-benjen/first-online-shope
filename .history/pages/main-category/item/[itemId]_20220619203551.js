@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 
 const ItemId = ({postData, params})=>{
     const router = useRouter();
-    // console.log(postData);
+    console.log(postData);
     
     // console.log(postData);
   

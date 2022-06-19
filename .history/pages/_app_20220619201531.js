@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useRouter } from "next/router";
 import { useState, useEffect } from 'react';
-import Header from '../components/layout/header/Header';
+import Header from '../components/layout/Header/Header';
 import Footer from '../components/layout/footer/Footer';
 import { CartProvider, useCart } from "react-use-cart";
 import { Fragment } from "react"
