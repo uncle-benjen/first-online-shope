@@ -1,0 +1,124 @@
+.slider{
+   position: relative;
+   min-width: 100%;
+   height: 97%;
+   display: flex;
+   /* right: 2.5rem; */
+   justify-content: space-around;
+   align-items: center;
+   /* overflow-x: hidden; */
+   border: 1px solid red;
+}
+.slide{
+   position: relative;
+   width: 92%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   overflow: hidden;
+
+}
+.card{
+   position: relative;
+   min-width: 20%;
+   height: 95%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 10rem;
+   margin-left: .9rem;
+   transition: transform .6s linear;
+
+}
+
+.sCard{
+   position: relative;
+   min-width: 25%;
+   height: 95%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   transition: transform .6s linear;
+}
+
+.iconWrapper{
+   position: absolute;
+   width: 4rem;
+   height: 4rem;
+}
+
+.left, .right{
+   position: absolute;
+   top: 50%;
+   width: 5%;
+   transform:  translateY(-50%);
+   background: none;
+   border: none;
+   outline: none;
+   z-index: 2;
+   cursor: pointer;
+}
+
+.left{
+   left: -0.5rem;
+}
+.right{
+   right: -0.5rem;
+}
+
+.dotsContainer{
+   width: 6%;
+   position: absolute;
+   bottom: 1px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.dots{
+  
+ width: 6px;
+ height: 6px;
+ border-radius: 50%;
+ margin: 0 .3rem;
+ background: var(--black-lighter-color);
+
+}
+.active{
+   width: 18px;
+   height: 6px;
+   border-radius: .25rem;
+   transition: all 0.5s linear;
+   margin: 0 .3rem;
+   background: var( --tertiary-darker-color);
+
+}
+
+
+
+@media only screen and (max-width:992px){
+}
+
+@media only screen and (max-width:786px){
+}
+
+@media only screen and (max-width:575px){
+   .slider{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+   }
+   .slide{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      border: 1px solid  red;
+      flex: 1 1 150px;
+
+   }
+   .card{
+   }
+}

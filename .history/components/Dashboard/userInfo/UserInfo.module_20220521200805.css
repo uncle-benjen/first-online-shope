@@ -1,0 +1,29 @@
+.wrapper{
+    width: 70%;
+    margin: 6rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    border: 1px solid var(--white-darker-color);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: var(--white-light-color);
+}
+.content{
+    border: 1px solid red;
+    min-width: 50%;
+    padding: 1rem 2rem;
+   
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+.title{}
+.subTitle{}

@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderReview{
+    border: 1px solid blue;
+    width: 90%;
+}

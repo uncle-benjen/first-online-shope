@@ -1,0 +1,40 @@
+.wrapper{
+    width: 15%;
+    border: 1px solid red;
+    float: right;
+}
+.container{
+    position:relative;
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2rem 1rem 2rem 0;
+    /* padding: 1rem 2rem; */
+}
+.profileWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    justify-content:space-between;
+}
+.userName{
+    border: 1px solid red;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 5% auto;
+}
+.img{
+    border-radius: 50%;
+}
+.navWrapper{}
+.logoutWrapper{
+    position: absolute;
+    margin-bottom: 2rem;
+    bottom: 0;
+}

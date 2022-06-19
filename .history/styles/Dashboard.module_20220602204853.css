@@ -1,0 +1,72 @@
+.wrapper{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.nav{
+    position: absolute;
+    width: 18%;
+    height: 100vh;
+    right: .5rem;
+    top: .5rem;
+    z-index: 3;
+    /* margin-top: 1rem; */
+    /* float: right; */
+}
+
+.container{
+    /* border: 1px solid blue; */
+    width: 81%;
+    height: 100%;
+}
+
+@media only screen and (max-width:992px){
+    .wrapper{
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        padding: 0;
+        margin: 0;
+        width: 25%;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+        width: 78%;
+    }
+}
+
+
+@media only screen and (max-width:786px){
+   
+    .container{
+        width: 95%;
+    }
+    .nav{
+        width: 8%;
+    }
+    .nav.active{
+        width: 30%;
+    }
+    .container.active{
+        /* width: 80%; */
+    }
+
+}
+
+@media only screen and (max-width:575px){
+    .container{
+
+    }
+    .nav{
+        width: 9%;
+    }
+    .nav.active{
+        width: 40%;
+    }
+    .nav.active{
+        width: 45%;
+    }
+}

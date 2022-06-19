@@ -1,0 +1,18 @@
+.container{
+    text-align: right;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.itemImg{
+
+}
+.cartItem{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}

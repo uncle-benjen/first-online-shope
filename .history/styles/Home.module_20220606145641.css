@@ -1,0 +1,57 @@
+.mainCategory{
+  position: relative;
+  width: 90%;
+  margin: 9rem auto;
+  /* border: 1px solid black; */
+  height: 100%
+}
+
+.detailWrapper{
+  width: 100%;
+  position: relative;
+  margin: 0rem auto;
+  margin-top: 9rem;
+
+}
+
+.shopContainer{
+  width: 100%;
+  margin-top: 9rem;
+}
+
+
+.notFoundWrapper{
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 0rem auto;
+  margin-top: 10rem;
+  height: 90vh;
+  display: flex;
+  justify-content:center;
+  padding-top: 3rem;
+  color: var(--primary-color);
+}
+
+.spinnerWrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 10;
+}
+.spinner{
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  animation: all infinite .5s linear;
+  border: 6px solid red;
+}
+

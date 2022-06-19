@@ -1,0 +1,26 @@
+.wrapper{
+    /* margin-top: 7rem; */
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: ; */
+    position: relative;
+}
+.nav{
+    position: absolute;
+    width: 18%;
+    height:100%;
+    right: 1rem;
+    /* overflow: hidden; */
+    /* margin-top: 4rem; */
+    /* float: right; */
+}
+.navWrapper{    
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+.container{
+    /* border: 1px solid red; */
+    width: 82%;
+    height: 100%;
+}

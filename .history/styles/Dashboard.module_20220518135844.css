@@ -1,0 +1,21 @@
+.wrapper{
+    /* margin-top: 7rem; */
+    /* border: 1px solid red; */
+    width: 100%;
+    height:100% ;
+    position: relative;
+}
+.nav{
+    position: absolute;
+    width: 18%;
+    height:100vh;
+    right: .5rem;
+    /* margin-top: 1rem; */
+    /* float: right; */
+}
+
+.container{
+    /* border: 1px solid blue; */
+    width: 81%;
+    height: 100%;
+}

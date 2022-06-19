@@ -1,0 +1,31 @@
+.mainCategory{
+  position: relative;
+  width: 90%;
+  margin: 9rem auto;
+  /* border: 1px solid black; */
+  height: 100%
+}
+
+.detailWrapper{
+  width: 100%;
+  position: relative;
+  margin: 0rem auto;
+  margin-top: 9rem;
+
+}
+
+.shopContainer{
+  width: 100%;
+  margin-top: 9rem;
+}
+
+
+.notFoundWrapper{
+  border: 1px solid red;
+  width: 90%;
+  margin: 8rem auto;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 4rem;
+}

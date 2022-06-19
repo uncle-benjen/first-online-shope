@@ -1,0 +1,112 @@
+
+.card{
+    position: absolute;
+    min-width: 30rem;
+    height: 28rem;
+    background-color: var(--white-color);
+    border-radius: .4rem;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    border-radius: 50%;
+    background: var(--white-darker-color);
+    top: -20%;
+    right: -30%;
+    transform: skewY(345deg);
+    transition: all 0.3s;
+}
+
+.card:hover::before{
+    top: -20%;
+    right: -10%;
+    transform: scale(1.8);
+}
+
+.card .imgBx{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    z-index: 1;
+    /* transition: all 0.3s ease-in-out; */
+}
+.img{
+    width: 20rem;
+    height: 40rem;
+}
+
+.card .imgBx img{
+    max-width: 100%;
+    transition: all 0.4s linear;
+}
+.card:hover .imgBx img{
+    max-width: 90%;
+
+}
+.contentBx{
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    z-index: 1;
+}
+
+ .price{
+    font-size: 1.6rem;
+    color: var(--black-color);
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price span{
+    font-size: 1.4;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--black-light-color);
+}
+.price strong{
+    margin: .5rem 0 1rem 0 ;
+
+}
+
+.offNum{
+    width:3rem;
+    height: 3rem;
+    border-radius: 60%;
+    background-color: var(--primary-color);
+    transform: skew(-40deg, 25deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offNum p{
+    transform: skew(40deg, -25deg);
+    color: var(--white-color);
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width:992px){
+.card{
+    width: 90%;
+    height: 75%;
+}
+
+}
+
+@media only screen and (max-width:786px){
+}
+
+@media only screen and (max-width:575px){
+}

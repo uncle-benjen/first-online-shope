@@ -1,0 +1,114 @@
+.container{
+    width: 90%;
+    position: relative;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 6rem;
+}
+.shopImg {
+    margin-top: -6rem;    
+}
+.img{
+    height: 100%;
+    background-size: 100%;
+    object-fit: cover;
+}
+.shopInfo{
+    width: 100%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: var(--black-color);
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title h4{
+    font-size: 1.8rem ;
+    font-weight: 700;
+}
+.icon{
+    margin: .5rem 0 0 .4rem;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+.locIcon{
+    margin-left: .5rem;
+}
+.info p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: right;
+    color: var(--black-light-color);
+
+}
+.phone, .email{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+} 
+.phone span, .email span{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+
+
+.brief{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 2rem;
+    color: var(--black-color);
+}
+.brief h4 {
+    font-size: 1.8rem ;
+    font-weight: 600;
+}
+.brief p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: right;
+    color: var(--black-light-color);
+}
+
+@media only screen and (max-width:992px){
+}
+
+@media only screen and (max-width:786px){
+}
+
+@media only screen and (max-width:575px){
+  .shopImg{
+      display: none;
+    }
+    .container{
+        width: 100%;
+        padding: 1.5rem;
+    }
+}

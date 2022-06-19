@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.orderReview{
+    border: 1px solid blue;
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.listItems{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listItem{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.currentOrders{
+    border: 1px solid blue;
+    width: 90%;
+}
+
+.olderOrders{
+    border: 1px solid blue;
+    width: 90%;
+}

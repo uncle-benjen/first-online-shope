@@ -1,0 +1,85 @@
+.cardContainer{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 90%;
+    min-height: 40vh;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(170, 180, 170, 0.503);
+    border-radius: .5rem;
+    background: var(--white-lighter-color);
+    box-shadow:inset 0px 1px 1px 0px rgba(255,255,255,.4),
+    1px 2px 6px 0px rgba(0,0,0,.1),
+    0px 1px 2px 0px rgba(0,0,0,.1);
+}
+.orderDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.info{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--black-color);
+    margin-bottom: 2rem;
+}
+.price{
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+.state span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: .5rem;
+    color: var(--black-color);
+}
+
+.items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 14vh;
+    flex-wrap: wrap;
+}
+.itemImg{
+    border: 1px solid rgba(204, 207, 225, 0.503);
+    padding: .25rem 1rem;
+    border-radius: .5rem;
+    background: var(--white-lighter-color);
+    margin-left: 1rem;
+}
+.itemImg .img{
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width:992px){
+}
+@media only screen and (max-width:786px){
+    .cardContainer{
+        padding: .5rem 1rem;
+        /* margin: 0; */
+    }
+}
+@media only screen and (max-width:575px){
+}

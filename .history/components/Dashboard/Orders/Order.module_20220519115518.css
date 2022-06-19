@@ -1,0 +1,25 @@
+.cardContainer{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    margin: 1rem auto;
+}
+.orderDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem;
+}
+.state span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: .5rem;
+}

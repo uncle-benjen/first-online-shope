@@ -1,0 +1,128 @@
+.container{
+    text-align: right;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 1rem 2rem;
+    box-shadow:inset 0px 1px 1px 0px rgba(255,255,255,.4),
+    1px 2px 6px 0px rgba(0,0,0,.1),
+    0px 1px 2px 0px rgba(0,0,0,.1);
+    border-radius: .8rem;
+    background: var(--white-light-color);
+    margin-bottom: 1rem;
+    
+}
+.itemImg{
+    margin-left: 4rem;
+}
+.img{
+    border-radius: .4rem;
+}
+.cartItem{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+
+}
+.itemInfo{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.itemInfo h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--black-color);
+}
+
+.summary {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+  }
+  
+  .price {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: var(--black-light-color);
+    font-size: 1.4rem;
+  }
+  
+  .amount {
+    font-weight: bold;
+    border: 1px solid var(--black-lighter-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: .4rem;
+    color: var(--black-color);
+    margin: 0 .5rem;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .actions div{
+    display: flex;
+    align-items: center;
+    padding: .4rem .8rem ;
+  }
+.actions button{
+    background: none;
+    border: 1px solid var(--black-lighter-color);
+    border-radius: .4rem;
+    color: var(--primary-dark-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .totalPrice{
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+  }
+  
+.totalPrice span:nth-child(2){
+    color: var(--primary-dark-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.totalPrice span { 
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-left: 2rem;
+    color: var(--black-light-color);
+}
+
+@media only screen and (max-width:992px){
+}
+
+@media only screen and (max-width:786px){
+}
+
+@media only screen and (max-width:575px){
+  .cartItem{
+    width: 80%;
+    border: 1px solid red;
+  }
+  .actions{
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+  .totalPrice{
+    flex-direction: column;
+  }
+}

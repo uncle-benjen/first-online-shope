@@ -1,0 +1,7 @@
+.pageNotFound{
+    text-align: center;
+    color: var(--black-color);
+}
+.pageNotFound p{
+    font-weight: 500;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Almarai', BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+}
+
+ html{
+  font-size: 62.5%;
+  font-family: 'Almarai';
+  scroll-behavior: smooth;
+ }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.map-container{
+  width: 60%;
+  margin: 8rem auto;
+  height: 60vh;
+  border-radius: .6rem;
+}
+
+
+:root{
+  --primary-color:#E90C3A;
+  --primary-light-color:rgba(233, 12, 56, 0.75);
+  --primary-lighter-color:rgba(233, 12, 56, 0.502);
+  --primary-dark-color:#a1223c;
+
+
+
+  --secondary-color: #009000;
+  --secondary-light-color: rgba(0, 144, 0, 0.75);
+  --secondary-lighter-color: rgba(34, 141, 34, 0.5);
+  --secondary-lighter1-color: rgba(77, 139, 77, 0.5);
+  --secondary-lighter2-color: rgba(105, 152, 105, 0.5);
+  --secondary-dark-color: rgb(31, 100, 31);
+
+  --tertiary-color:#0084ff;
+  --tertiary-light-color:rgba(0, 132, 255, 0.75);
+  --tertiary-lighter-color:rgba(0, 132, 255, 0.50);
+  --tertiary-lighter1-color:rgba(135, 192, 245, 0.5);
+  --tertiary-lighter2-color:rgba(148, 203, 253, 0.25);
+  --tertiary-dark-color:rgb(35, 77, 116);
+  --tertiary-darker-color:#0f2842;
+
+
+  --black-color: rgb(30, 34, 46);
+  --black-light-color: rgba(30, 34, 46, 0.75);
+  --black-lighter-color: rgba(30, 34, 46, 0.50);
+
+  --white-color: #ecf0f3;
+  --white-dark-color: rgb(219, 227, 233);
+
+  --white-darker-color: rgb(209, 212, 215);
+
+  --white-light-color: rgb(248, 248, 252);
+  --white-light-color: rgb(254, 254, 254);
+
+}

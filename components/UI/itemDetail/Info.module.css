@@ -1,0 +1,99 @@
+.container {
+    width: 90%;
+    margin: 4rem auto;
+    text-align: right;
+    border-top: 1px solid var(--white-darker-color);
+    padding: 1rem;
+    
+}
+
+.container h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--black-color);
+}
+
+.container ul{
+    width: 30%;
+    margin: 2rem auto;
+    right: 0;
+    margin-left: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.showMore li:nth-child(n+4){
+    display: none;
+}
+.container ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.4rem ;
+    font-weight: 600;
+}
+.title {
+    color: var(--black-color);
+    font-weight: 600;
+}
+.descrip{
+    color: var(--black-light-color);
+}
+.btn{
+    padding: .5rem 1rem ;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem;
+    color: var(--black-color);
+
+}
+.btn span{
+    margin-right: .2rem;
+    transition: all .4s ease-in-out;
+}
+.btn:hover span{
+    margin-right: .4rem;
+
+}
+
+.show li:nth-child(n + 4){
+    display: none;
+}
+
+@media only screen and (max-width:992px){
+    .container ul{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:786px){
+    .container ul{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:575px){
+  
+    .container ul{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 60%;
+    }
+
+}

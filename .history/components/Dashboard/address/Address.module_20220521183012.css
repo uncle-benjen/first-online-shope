@@ -1,0 +1,22 @@
+.addressWrapper{
+    border: 1px solid blue;
+    display: flex;
+    align-items: flex-end;
+}
+.address{
+
+}
+
+.phone, .email{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+} 
+.phone span, .email span{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.icon{
+    margin: .5rem 0 0 .4rem;
+}

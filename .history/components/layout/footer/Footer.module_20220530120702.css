@@ -1,0 +1,144 @@
+.footer{
+    width: 100%;
+    /* height: 45vh; */
+    background: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    bottom: 0;
+    
+ }
+
+ .wrapper{
+     width:80%;
+     height: 80%;
+     margin: 0 6rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+    width: 10%;
+    font-size: 5.5rem;
+    font-weight: 600;
+    transform: rotate(-27deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default; 
+    color: #05325b;
+}
+    
+ 
+ .menuSection{
+     width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--black-color);
+
+ }
+ .leftMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+ }
+.leftMenu h2 , .rightMenu h2 {
+    font-size: 2rem;
+    margin-right: -.3rem;
+    font-weight: 600;
+}
+
+
+ .rightMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+ }
+
+ 
+.navItem {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-light-color);
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+.navItem:hover{
+    color: var(--black-color);
+}
+
+.item{
+    /* border: 1px solid white; */
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(4, 22, 33, .75);
+}
+.item span{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: .5rem;
+  margin-top: .3rem;
+}
+
+@media only screen and (max-width:992px){
+    .menuSection{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:786px){
+    .wrapper{
+        margin: 0;
+        width: 90%;
+        /* border: 1px solid red; */
+
+    }
+    .menuSection{
+        width: 94%;
+        /* border: 1px solid red; */
+    }
+    .logo{
+        width: 8%;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .wrapper{
+        margin: 0 4rem;
+        width: 80%;
+        /* border: 1px solid red; */
+
+    }
+    .menuSection{
+        width: 60%;
+    }
+    .logo{
+        width: 12%;
+    }
+    .menuSection{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+}

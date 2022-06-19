@@ -1,0 +1,12 @@
+.cartItem{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.itemImg{
+    right: 0;
+}

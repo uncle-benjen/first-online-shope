@@ -1,0 +1,6 @@
+.cardContainer{
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+}
+.orderDescription{}
