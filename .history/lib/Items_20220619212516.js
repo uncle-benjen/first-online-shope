@@ -5,7 +5,7 @@ export const allItems=  [
 {
   id:1,category:"men-t1",imgs:["/static/img/itemsImg/item1.png","/static/img/itemsImg/1.png","/static/img/itemsImg/1-1.png"], size:"", availbleSize:["L", "XL","XLL"],
   availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "ساده", "ساده", "ساده", ], 
-  comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
+  comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/shirt.png", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
   subTitle:"نظرمن دستگاه خوبی برای ماارسال نشده بودویک سری نقاط ضعف مثل سائیدگی ویاخط وخش داشت...البته بنده مرجوع کردم که دیجی کالا به سرعت کالارامرجوع نمود...بنده ازتمامی عوامل دیجی کالا به خاطرخدمات پس ازفروش بسیارخوبشون سپاسگزارم"}]
   ,title:"پولو شرت", subTitle:"مردانه",imgSrc:"/static/img/itemsImg/item1.jpg" ,price:2200000, off:"52%", priceWithOff:20000
 },
