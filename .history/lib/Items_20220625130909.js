@@ -4,7 +4,7 @@
 export const allItems=  [
 {
   id:1,category:"men-t1",imgs:["/static/img/ItemsImg/item1.jpg","/static/img/ItemsImg/1.png","/static/img/ItemsImg/1-1.png"], size:"", availbleSize:["L", "XL","XLL"],
-  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "نخ", "آستین کوتاه", "یقه گرد", ], 
+  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "ساده", "ساده", "ساده", ], 
   comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
   subTitle:"نظرمن دستگاه خوبی برای ماارسال نشده بودویک سری نقاط ضعف مثل سائیدگی ویاخط وخش داشت...البته بنده مرجوع کردم که دیجی کالا به سرعت کالارامرجوع نمود...بنده ازتمامی عوامل دیجی کالا به خاطرخدمات پس ازفروش بسیارخوبشون سپاسگزارم"}]
   ,title:"پولو شرت", subTitle:"مردانه",imgSrc:"/static/img/ItemsImg/item1.jpg" ,price:2200000, off:"52%", priceWithOff:20000
@@ -13,20 +13,20 @@ export const allItems=  [
 {
   id:2,category:"men-t1" ,title:"تی شرت", subTitle:"مردانه",imgSrc:"/static/img/ItemsImg/item2.png" ,price:2200000, off:"52%", priceWithOff:20000,
   imgs:["/static/img/ItemsImg/item2.png","/static/img/ItemsImg/2.png","/static/img/ItemsImg/2-2.png"], size:"", availbleSize:["L", "XL","XLL"],
-  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "پلی استر", "ملانژ", "آستین کوتاه", ], comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
+  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "ساده", "ساده", "ساده", ], comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
   subTitle:"نظرمن دستگاه خوبی برای ماارسال نشده بودویک سری نقاط ضعف مثل سائیدگی ویاخط وخش داشت...البته بنده مرجوع کردم که دیجی کالا به سرعت کالارامرجوع نمود...بنده ازتمامی عوامل دیجی کالا به خاطرخدمات پس ازفروش بسیارخوبشون سپاسگزارم"}]
   
 },
 {
   id:3,category:"men-t1" ,title:"تی شرت", subTitle:"مردانه",imgSrc:"/static/img/ItemsImg/item3.png" ,price:2200000, off:"52%", priceWithOff:20000,
   imgs:["/static/img/ItemsImg/item3.png","/static/img/ItemsImg/3.png","/static/img/ItemsImg/3-3.png"], size:"", availbleSize:["L", "XL","XLL"],
-  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "نخی", "آستین کوتاه", "یقه گرد", ], comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
+  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "ساده", "ساده", "ساده", ], comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
   subTitle:"نظرمن دستگاه خوبی برای ماارسال نشده بودویک سری نقاط ضعف مثل سائیدگی ویاخط وخش داشت...البته بنده مرجوع کردم که دیجی کالا به سرعت کالارامرجوع نمود...بنده ازتمامی عوامل دیجی کالا به خاطرخدمات پس ازفروش بسیارخوبشون سپاسگزارم"}]
   
 },
 {
   id:4,category:"men-t1",imgs:["/static/img/ItemsImg/item4.png","/static/img/ItemsImg/4.png","/static/img/ItemsImg/4-4.png"], size:"", availbleSize:["L", "XL","XLL"],
-  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "نخی", "آستین کوتاه", "ساده", ], 
+  availbleColors:["red", "green", "blue"], commentNum:45, property:["ساده", "ساده", "ساده", "ساده", ], 
   comments:[{userName:"امین پورمحمدیان", userImg:"/static/img/profile.jpg", date:"۴ مرداد ۱۳۹۹", rate:4.5, title:"پیشنهاد میشه",
   subTitle:"نظرمن دستگاه خوبی برای ماارسال نشده بودویک سری نقاط ضعف مثل سائیدگی ویاخط وخش داشت...البته بنده مرجوع کردم که دیجی کالا به سرعت کالارامرجوع نمود...بنده ازتمامی عوامل دیجی کالا به خاطرخدمات پس ازفروش بسیارخوبشون سپاسگزارم"}]
   ,title:"پولو شرت", subTitle:"1مردانه",imgSrc:"/static/img/ItemsImg/item4.png" ,price:4200000, off:"52%", priceWithOff:20000

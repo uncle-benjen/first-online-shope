@@ -21,7 +21,7 @@
 }
 .img{
     border-radius: .4rem;
-    object-fit: cover;
+    object-fit: contain;
 
 }
 .cartItem{

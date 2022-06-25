@@ -18,11 +18,10 @@
 }
 .itemImg{
     margin-left: 4rem;
+    object-fit: contain;
 }
 .img{
     border-radius: .4rem;
-    object-fit: cover;
-
 }
 .cartItem{
     display: flex;

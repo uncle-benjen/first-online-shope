@@ -34,8 +34,9 @@ const Info = () =>{
                     <div className={styles.descrip}> ایران</div>
                 </li>
                 <li>
-                    <div className={styles.title}>مورد  استفاده</div>
-                    <div className={styles.descrip}>اسپرت، روزمره</div>
+                    <div className={styles.title}>نگهداری</div>
+                    <div className={styles.descrip}> با ماشین لباسشویی و در دمای حداکثر 30 درجه سانتی گراد شستشو شود.
+با دمای متوسط اتوکشی شود. </div>
                 </li>
            
             </ul>

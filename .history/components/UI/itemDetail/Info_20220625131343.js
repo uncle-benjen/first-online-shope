@@ -18,24 +18,25 @@ const Info = () =>{
                     <div className={styles.descrip}>پلی استر</div>
                 </li>
                 <li>
-                    <div className={styles.title}>آستین</div>
-                    <div className={styles.descrip}>کوتاه </div>
+                    <div className={styles.title}>قد</div>
+                    <div className={styles.descrip}>پلی استر</div>
                 </li>
                 <li>
                     <div className={styles.title}>یقه</div>
-                    <div className={styles.descrip}> گرد</div>
+                    <div className={styles.descrip}>پلی استر</div>
                 </li>
                 <li>
                     <div className={styles.title}>طرح</div>
-                    <div className={styles.descrip}>ملانژ</div>
+                    <div className={styles.descrip}>پلی استر</div>
                 </li>
                 <li>
                     <div className={styles.title}>کشور تولید کننده</div>
                     <div className={styles.descrip}> ایران</div>
                 </li>
                 <li>
-                    <div className={styles.title}>مورد  استفاده</div>
-                    <div className={styles.descrip}>اسپرت، روزمره</div>
+                    <div className={styles.title}>نگهداری</div>
+                    <div className={styles.descrip}> با ماشین لباسشویی و در دمای حداکثر 30 درجه سانتی گراد شستشو شود.
+با دمای متوسط اتوکشی شود. </div>
                 </li>
            
             </ul>
