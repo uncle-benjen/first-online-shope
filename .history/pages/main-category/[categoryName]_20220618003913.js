@@ -20,21 +20,21 @@ const CategoryName = () =>{
         cards = menSectionShow;
         category = [
         {name:"تیشرت", url:"/main-category/men", img:"/static/img/menTshirt1.jpg"},
-        {name:"لباس رسمی", url:"/main-category/men", img:"/static/img/menFormal.jpg"},
+        {name:"پیراهن", url:"/main-category/men", img:"/static/img/menFormal.jpg"},
         {name:"زمستانی", url:"/main-category/men", img:"/static/img/menHoodi.jpg"},
     ];
     }else if (name === "women") {
         cards = womenSectionShow;
         category = [
         {name:"تیشرت", url:"/main-category/men", img:"/static/img/womenTshirt.jpg"},
-        {name:"لباس رسمی", url:"/main-category/men", img:"/static/img/womenFormal.jpg"},
+        {name:"پیراهن", url:"/main-category/men", img:"/static/img/womenFormal.jpg"},
         {name:"زمستانی", url:"/main-category/men", img:"/static/img/womenHoodi.jpg"},
     ];
     }else if (name === "kids") {
         cards = kidSectionShow;
         category = [
         {name:"تیشرت", url:"/main-category/men", img:"/static/img/kidsTshirt.jpg"},
-        {name:"لباس رسمی", url:"/main-category/men", img:"/static/img/kidsFormal.jpg"},
+        {name:"پیراهن", url:"/main-category/men", img:"/static/img/kidsFormal.jpg"},
         {name:"زمستانی", url:"/main-category/men", img:"/static/img/kidsHoodi.jpg"},
     ];
     }
@@ -67,7 +67,7 @@ const CategoryName = () =>{
         e.preventDefault();
         if (itemName === "تیشرت") {
             setShowCards(type1);
-        }else if (itemName === "لباس رسمی") {
+        }else if (itemName === "پیراهن") {
             setShowCards(type2);
         }else if (itemName === "زمستانی") {
             setShowCards(type3);

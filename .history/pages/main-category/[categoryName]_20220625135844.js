@@ -67,7 +67,7 @@ const CategoryName = () =>{
         e.preventDefault();
         if (itemName === "تیشرت") {
             setShowCards(type1);
-        }else if (itemName === "لباس رسمی") {
+        }else if (itemName === "پیراهن") {
             setShowCards(type2);
         }else if (itemName === "زمستانی") {
             setShowCards(type3);
